@@ -1,0 +1,235 @@
+/* CSS */
+body {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.329) 0%, rgba(0, 0, 0, 0.308) 90vw),
+                url(https://cdn.discordapp.com/attachments/897696550355079168/1218391820640321617/aesthetic-night-ocean-desktop-wallpaper.jpg?ex=66077ece&is=65f509ce&hm=ca1df12916473073ae6e87e4928555cd41242c701eaab3af3e568f89ba9144ce&),
+                black;
+    background-size: cover; /* Alterado para cover */
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Adiciona isso para esconder a barra de rolagem */
+}
+
+section {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.767);
+    overflow: hidden;
+}
+
+.register {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 210%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+#txtfname {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    left: 26.5%;
+    width: 35%;
+    top: 23%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+#txtlname {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    left: 73.5%;
+    width: 35%;
+    top: 23%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#txtemail {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    left: 50.2%;
+    width: 82.5%;
+    top: 36%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#txtpas {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    left: 50.2%;
+    width: 82.5%;
+    top: 49%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#txtcpas {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    left: 50.2%;
+    width: 82.5%;
+    top: 62%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#txtfname::placeholder {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    
+}
+
+#txtlname::placeholder {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+}
+#txtemail::placeholder {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+}
+#txtpas::placeholder {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+}
+#txtcpas::placeholder {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+}
+
+#butsub {
+    position: absolute;
+    background-color: rgb(100, 0, 255);
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    left: 50.2%;
+    width: 92.5%;
+    top: 80%;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 110%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+#butsub:hover {
+    background-color: rgb(24, 0, 131);
+}
+
+#butsub:active{
+    transform: translate(-50%, -50%) scale(0.95); 
+}
+
+#logar {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 5%;
+    color: rgba(255, 255, 255, 0.938);
+    text-wrap: nowrap;
+    display: flex;
+    height: 40px;  
+}
+
+#logar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+@keyframes glow {
+    0% { border-color: rgba(255, 255, 255, 0.205); }
+    50% { border-color: #ffffff; }
+    100% { border-color: rgba(255, 255, 255, 0.205); }
+}
+
+.input-field:focus {
+    animation: glow 1s infinite; /* Aplica a animação ao focar */
+}
+
+.input-container {
+    position: center;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-container input::placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.input-container input:focus::placeholder {
+    opacity: 0;
+}
+
